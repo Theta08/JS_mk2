@@ -66,8 +66,8 @@ const stringFive='5';
 const numberFive=5;
 
 //== loose equality, with type conversion
-console.log(stringFive== numberFive);
-console.log(stringFive!=numberFive);
+console.log(stringFive== numberFive);       //t
+console.log(stringFive!=numberFive);        //f
 
 //=== strict equality, no type conversion
 console.log(stringFive === numberFive);
@@ -92,7 +92,7 @@ console.log(null===false);
 
 // 9.Ternary operator:?
 //condition ? value1 :value2;
-console.log(name===pm1?'yes':'no');      //(변수)? 비교후 true면 'yes'실행  false면 : 뒤 'no'실행
+console.log(name===pm1?'yes':'no');      //(변수)? (비교값)비교후 true면 'yes'실행  false면 : 뒤 'no'실행
 
 // 10.Switch statement
 const browers='IE'
