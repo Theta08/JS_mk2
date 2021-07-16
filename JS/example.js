@@ -126,7 +126,7 @@
       //reduce: 배열에있는 모든 값을 누적
       //reduceright: 배열 마지막부터 시작
       //return 한값을 prev로 전달
-      //0: 0부터 시작
+      //0: prev=0부터 시작
       const result=students.reduce((prev,current)=>prev+current.score,0
         //   console.log('=========');
         //   console.log(prev);
